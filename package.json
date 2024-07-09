@@ -1,7 +1,7 @@
 {
   "name": "namaste-react",
   "version": "1.0.0",
-  "description": "This is a react-learning package",
+  "description": "This is namaste react by Aniket Singh",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -11,10 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/anikets2001/namaste-react.git"
   },
-  "keywords": [
-    "react",
-    "learning-react"
-  ],
   "author": "Aniket Singh",
   "license": "ISC",
   "bugs": {
@@ -22,6 +18,14 @@
   },
   "homepage": "https://github.com/anikets2001/namaste-react#readme",
   "devDependencies": {
-    "parcel": "^2.12.0"
-  }
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
 }
