@@ -6,7 +6,6 @@ const parent = React.createElement(
   { id: "parent" }, //attributes
   [
     React.createElement(
-      //children
       "div",
       { id: "childOne" },
       [
